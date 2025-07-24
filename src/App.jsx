@@ -12,7 +12,7 @@ import Error from "./Error";
 export default function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "/",
       element: <Layout />,
       children: [
         { index:true, element: <Home /> },
